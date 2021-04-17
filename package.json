@@ -1,0 +1,16 @@
+{
+  "name": "nucampproject",
+  "version": "1.0.0",
+  "description": "Instrumental Knowledge Website",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Billingsley",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
