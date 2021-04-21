@@ -13,53 +13,66 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- endbuild -->
 </head>
-<body class="vh-100">
+<body>
 
-    <nav class="navbar bg-dark fixed-top">
-        <a href="#" class="navbar-brand text-light">IK</a>
+    <nav class="navbar bg-dark sticky-top">
+        <a href="#" class="navbar-brand text-white"><h3>IK</h3></a>
+        <div class="collapse" id="navbarToggle">
+
+        </div>
     </nav>
-    <div class="container h-100 mt-5">
-        <div class="card-deck h-100 text-center">
-            <div class="card bg-dark text-white h-75">
-                <div class="card-img-top h-50 overflow-hidden">
-                    <img src="img/strat_dk_bg.jpg" alt="" class="w-100">
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card bg-dark text-white text-center">
+                    <h3 class="card-header">Knowledge Base</h3>
+                    <div class="card-body py-3 py-md-5" id="card-1-body">
+                        <h4 class="card-text">Not sure where to start?</h4>
+                        <p class="card-text mt-4">Let our informative and educational spec guide help you narrow down your search for the right instrument for you.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success">Start your search!</button>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h3 class="card-title">Knowledge Base</h3>
-                    <h4 class="card-text">Don't know where to begin?</h4>
-                    <p class="card-text">Let our informative and educational spec guide help you narrow down your search for the right instrument for you.</p>
-                    <button class="btn btn-success">Start your search!</button>
+            </div>
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <div class="card bg-dark text-white text-center">
+                    <h3 class="card-header">Instrument Filter</h3>
+                    <div class="card-body py-3 py-md-5" id="card-2-body">
+                        <h4 class="card-text">Already know what you like?</h4>
+                        <p class="card-text mt-4">Let our spec filters present you with recommendations based upon your personal preferences.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success">Start your search!</button>
+                    </div>
                 </div>
-            </div>       
-                <div class="card bg-dark text-white h-75">
-                <div class="card-img-top h-50 overflow-hidden">
-                    <img src="img/ac_dk_bg.jpg" class="w-100">
+            </div>
+        </div>
+        <h2 class="text-white text-center pt-5 pb-3 d-none d-md-block">Or, browse our selection</h2>
+        <div class="row mt-3 d-none d-md-flex">
+            <div class="col-12 col-md-3">
+                <div class="card bg-dark text-white text-center">
+                    <button class="btn btn-success"><h4>Guitars</h4></button>
                 </div>
-                <div class="card-body">
-                    <h3 class="card-title">Instruments</h3>
-                    <h4 class="card-text">Already know what you like?</h4>
-                    <p class="card-text">Let our spec filters present you with recommendations based upon your personal preferences.</p>
-                    <button class="btn btn-success">Start your search!</button>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card bg-dark text-white text-center">
+                    <button class="btn btn-success"><h4>Basses</h4></button>
                 </div>
-            </div>       
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card bg-dark text-white text-center">
+                    <button class="btn btn-success"><h4>Effects</h4></button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card bg-dark text-white text-center">
+                    <button class="btn btn-success"><h4>Amps</h4></button>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- <div class="container">
-        <div class="row text-center">
-            <div class="col col-12 mt-5 p-3 col-md-6">
-                <h3>Knowledge Base</h3>
-                <h4>Don't know where to begin?</h4>
-                <p>Let our informative and educational spec guide help you narrow down your search for the right instrument for you.</p>
-                <button class="btn btn-success">Start your search!</button>
-            </div>
-            <div class="col col-12 mt-5 p-3 col-md-6">
-                <h3>Instruments</h3>
-                <h4>Already know what you like?</h4>
-                <p>Let our spec filters present you with recommendations based upon your personal preferences.</p>
-                <button class="btn btn-success">Start your search!</button>
-            </div>
-        </div>
-    </div> -->
     
     <!-- jQuery, Popper, and Bootstrap !!MUST BE IN THIS ORDER!! -->
     <!-- build:js js/main.js -->
