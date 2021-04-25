@@ -13,3 +13,6 @@ body {
   background-color: black;
   background-image: url("/img/hummingbird.jpg");
   background-size: 100%; }
+
+.dark-bg {
+  background-color: rgba(0, 0, 0, 0.6); }
